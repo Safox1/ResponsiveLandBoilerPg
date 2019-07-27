@@ -1,0 +1,73 @@
+/*{
+    margin:0;
+    border: 0;
+    padding:0;
+    outline: 0;
+    font-size:100%;
+    vertical-align: baseline;
+}
+
+body {
+    height: 100%;
+    margin: 0;
+    line-height: 1.6;
+}*/
+#vid{
+    position:fixed;
+    right:0;
+    bottom:0;
+    min-width: 100%;
+    min-height:100%;
+}
+.vide{
+    z-index: 1;
+}
+
+#select {
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 50px;
+}
+
+
+.header {
+    font-family: 'Abril Fatface', cursive;
+    color: whitesmoke;
+}
+
+#section1{
+    z-index: 2;
+}
+
+#section1 p {
+    font-size: 15px;
+    margin: 0;
+}
+
+#section1 .button {
+    border: whitesmoke 3px solid;
+    border-radius: 15px;
+    font-size: 20px;
+    font-weight: 600;
+    color: pink;
+    text-decoration: none;
+    font-family: Tahoma, Geneva, Verdana, sans-serif;
+    padding: 7px 10px;
+    margin-top: 40px;
+}
+
+#section1 .button:hover {
+    background-color: pink;
+    color: white;
+}
+
+#section2 {
+    text-align: center;
+    background-color: rgb(255, 248, 240);
+}
